@@ -598,13 +598,13 @@ body {
   .landing-header #movilHeader {
     display: flex !important;
     width: 100%;
-    order: 2;
+    order: 3;
     margin-top: 0.2em !important;
-    height: 30rem;
+    height: clamp(150px,50vw,800px) !important;
     background-image: url(./assets/header/Elementos-Banners-Landing-Soccer-Casino-2.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
   }
   .landing-header .header-bg {
     background-image: none;
@@ -615,7 +615,7 @@ body {
     max-width: 100%;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 27px !important;
+    padding: 27px 27px 0px 27px !important;
     background-image: none !important;
   }
   .landing-header .header-content div {
@@ -655,7 +655,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    order: 3;
+    order: 2;
     margin-top: 1rem;
   }
   .landing-header .btn-ingresa {
