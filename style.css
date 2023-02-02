@@ -128,13 +128,12 @@ body {
   height: 100%;
   z-index:0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-end;
 }
 
 .landing-header .header-content .bgHeader img{
   width: clamp(500px, 70vw, 1200px);
-  margin-left: 25%;
 }
 
 .landing-header .header-content div:first-of-type {
