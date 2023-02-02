@@ -273,11 +273,17 @@ body {
 }
 .header-steps div:nth-of-type(1) {
   background-color: white;
+  background-image: url(./assets/white.png);
+  background-position: center;
+  background-size: cover;
   color: #191919;
 }
 .header-steps div:nth-of-type(2) {
   background-color: #63575b;
-  color: #ffffff;
+  color: black;
+  background-image: url(./assets/green.png);
+  background-position: center;
+  background-size: cover;
 }
 .header-steps div:nth-of-type(2) p {
   display: flex;
@@ -295,6 +301,9 @@ body {
 .header-steps div:nth-of-type(3) {
   background-color: white;
   color: #191919;
+  background-image: url(./assets/white.png);
+  background-position: center;
+  background-size: cover;
 }
 
 #casino-imgs {
@@ -807,7 +816,7 @@ body {
   font-size: 30px!important;
   display: inline-block!important;
   width: initial!important;
-  border: 2px dashed #ffffff;
+  border: 2px dashed black;
   padding: 0px 5px!important;
   transition: 0.3s;
 }
