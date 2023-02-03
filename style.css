@@ -616,10 +616,12 @@ body {
   .landing-header .header-content {
     width: 100% !important;
     max-width: 100%;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
     padding: 0px 0px 27px 0px !important;
     background-image: none !important;
+    height: clamp(600px,100vh,900px);
   }
   .landing-header .header-content div {
     width: 100%;
