@@ -907,7 +907,8 @@ body {
 
 /*Accordeon start*/
 .accordion-acc10 {
-  background-color: #63575b;
+  /* background-color: #63575b; */
+  background-color: black;
   position:relative;
   cursor: pointer;
   padding: 18px;
