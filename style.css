@@ -341,7 +341,7 @@ body {
   align-items: center;
   position: relative;
   background-image: url(./assets/imgs/UPS_1°\ \(1\).png);
-  background-size: 100% 100%;
+  background-size: 100% 100% !important;
   background-position: center !important;
 }
 #casino-imgs div:nth-of-type(1) figure {
@@ -690,9 +690,10 @@ body {
   }
   #casino-imgs {
     padding: 2em 0em 0em 0em !important;
+    justify-content: center;
   }
   #casino-imgs div {
-    width: 100% !important;
+    width: clamp(200px,100%,500px) !important;
     margin-bottom: 0.1rem;
   }
   .segob figure img {
