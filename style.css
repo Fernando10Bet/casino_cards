@@ -83,6 +83,10 @@ body {
 .landing-header #movilHeader {
   display: none;
 }
+#movil2{
+  display: none;
+}
+
 .landing-header .header-bg {
   background-size: 75% 40%;
   background-repeat: no-repeat;
@@ -600,15 +604,15 @@ body {
   }
   .landing-header #movilHeader {
     display: flex !important;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     order: 1;
-    margin-top: 0.2em !important;
-    height: clamp(150px,50vw,800px) !important;
-    background-image: url(./assets/header/Elementos-Banners-Landing-Soccer-Casino-2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: clamp(90px,15vw,120px) !important;
+    margin-top: 100px;
+  }
+  #movilHeader img{
+    width: 100%;
+    height: auto;
   }
   .landing-header .header-bg {
     background-image: none;
@@ -622,7 +626,7 @@ body {
     align-items:center;
     padding: 0px 0px 27px 0px !important;
     background-image: none !important;
-    height: clamp(500px,100vh,650px);
+    height: clamp(400px,100vh,auto);
   }
   .landing-header .header-content div {
     width: 100%;
@@ -709,8 +713,20 @@ body {
   }
 }
 @media screen and (max-width: 650px) {
+  #movil1{
+    display: none;
+  }
+  #movilheader{
+    height: auto !important;
+  }
+  #movil2{
+    display: flex;
+    width: clamp(250px,100%,500px) !important;
+    margin-top: 0 !important;
+  }
   .header-content{
     row-gap: .5rem;
+    height: auto !important;
   }
   .landing-header{
     min-height: 650px !important;
@@ -726,9 +742,6 @@ body {
     background-size: 100%;
     background-position: center center !important;
   }
-  #movilHeader {
-    height: 20rem !important;
-  }
   .header-content div:first-of-type figure img {
     width: 60px !important;
     height: 60px !important;
@@ -738,14 +751,8 @@ body {
   .landing-header{
     min-height: 550px !important;
   }
-  #movilHeader {
-    height: 18rem !important;
-  }
 }
 @media screen and (max-width: 426px) {
-  .landing-header{
-    min-height: 400px !important;
-  }
   #casino-terms {
     padding: 0 0 2em;
 }
@@ -764,9 +771,6 @@ body {
     padding: 0 !important;
     line-height: 27px;
 }
-  #movilHeader {
-    height: 10rem !important;
-  }
   .landing-header .header-bg {
     height: auto;
     max-width: 100%;
