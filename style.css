@@ -137,7 +137,8 @@ body {
 }
 
 .landing-header .header-content .bgHeader img{
-  width: clamp(500px, 70vw, 1200px);
+  width: 75%;
+  min-width: 1150px;
 }
 
 .landing-header .header-content div:first-of-type {
